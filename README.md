@@ -1,3 +1,6 @@
+[![LICENCE](https://img.shields.io/github/license/HDRUK/MedCATweb)](https://github.com/HDRUK/MedCATweb/blob/master/LICENSE)
+[![Supported By](https://img.shields.io/badge/Supported%20By-HDRUK-blue)](https://hdruk.ac.uk)
+
 This repo provides a simple interface to inspect, improve and add concepts to biomedical NER+L model (e.g. MedCAT) and a further interface for research specific training data collection.
 
 ### How to use: the basic example with concepts from MedMentions
