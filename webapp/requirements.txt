@@ -6,5 +6,5 @@ django-polymorphic~=2.1
 djangorestframework~=3.10
 django-background-tasks~=1.2
 numpy~=1.15
-pandas~=0.23
+pandas~=0.25
 medcat~=0.2
