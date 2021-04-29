@@ -1,0 +1,28 @@
+version: 2
+updates:
+- package-ecosystem: pip
+  directory: "/webapp"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: medcat
+    versions:
+    - 0.4.0.1
+    - 1.0.2
+  - dependency-name: numpy
+    versions:
+    - 1.19.0
+    - 1.20.0
+  - dependency-name: pandas
+    versions:
+    - 1.2.0
+  - dependency-name: django-filter
+    versions:
+    - 2.4.0
+  - dependency-name: django-polymorphic
+    versions:
+    - 3.0.0
+  - dependency-name: django
+    versions:
+    - "3.1"
